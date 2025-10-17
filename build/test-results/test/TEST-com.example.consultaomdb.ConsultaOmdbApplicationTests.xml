@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.consultaomdb.ConsultaOmdbApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-16T22:05:52.476Z" hostname="MacBook-Pro-de-Andrey.local" time="0.339">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.consultaomdb.ConsultaOmdbApplicationTests" time="0.339"/>
+  <system-out><![CDATA[19:05:51.904 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.consultaomdb.ConsultaOmdbApplicationTests]: ConsultaOmdbApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:05:51.932 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.consultaomdb.ConsultaOmdbApplication for test class com.example.consultaomdb.ConsultaOmdbApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2025-10-16T19:05:52.053-03:00  INFO 6716 --- [consultaOmdb] [    Test worker] c.e.c.ConsultaOmdbApplicationTests       : Starting ConsultaOmdbApplicationTests using Java 21.0.7 with PID 6716 (started by andreyhitoshi1997 in /Users/andreyhitoshi1997/IdeaProjects/consultaOmdb)
+2025-10-16T19:05:52.054-03:00  INFO 6716 --- [consultaOmdb] [    Test worker] c.e.c.ConsultaOmdbApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T19:05:52.252-03:00  INFO 6716 --- [consultaOmdb] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3382baa3-b0f7-342e-8d88-2e87496aa25b
+2025-10-16T19:05:52.472-03:00  INFO 6716 --- [consultaOmdb] [    Test worker] c.e.c.ConsultaOmdbApplicationTests       : Started ConsultaOmdbApplicationTests in 0.503 seconds (process running for 0.823)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/andreyhitoshi1997/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
